@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import PokemonThumbnail from "./components/PokemonThumbnail";
 function App() {
   const [allPokemon, setAllPokemons] = useState([]);
